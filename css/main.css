@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+	.container
+		{	
+			width: 1000px;
+			height: auto;
+			background-color:beige;
+			margin: 0 auto;
+		}
+		.banner
+		{
+			width: 100%;
+			height: 80px;
+			background-color: #17859D;
+			
+		}
+		.content
+		{
+			width: 100%;
+			height: auto;
+			background-color: goldenrod;
+			
+		}
+			.left
+			{
+				width: 400px;
+				height: 300px;
+				background-color:aliceblue;
+				float: left;
+
+			}
+			.right
+			{
+				width: 600px;
+				height: 300px;
+				background-color: aliceblue;
+				float: right;
+			}
+		.content01
+		{
+			width: 100%;
+			height: 650px;
+			background-color:#17859D;
+		}
+			.left01
+			{
+				width: 350px;
+				height: 200px;
+				background-color:aliceblue;
+				float: left;
+				margin-left: 100px;
+				margin-top: 60px;
+			}
+			.right01
+			{
+				width: 350px;
+				height: 200px;
+				background-color:aliceblue;
+				float: right;
+				margin-right: 100px;
+				margin-top: 60px;	
+			}
+		.content02
+		{
+			width: 100%;
+			height: 550px;
+			background-color:aliceblue;
+		}
+			.left02
+			{
+				width: 350px;
+				height: 130px;
+				background-color:antiquewhite;
+				float: left;
+				margin-left: 100px;
+				margin-top: 20px;
+			}
+			.right02
+			{
+				width: 350px;
+				height: 390px;
+				background-color:antiquewhite;
+				float: right;
+				margin-right: 100px;
+				margin-top: 20px;	
+			}
+		.footer
+		{
+			width: 1000px;
+			height: 130px;
+			background-color: #17859D;
+			margin: 0 auto;
+		}
+		.text1
+		{
+			width: 300px;
+			height: 100px;
+			background-color:none;
+			float: left;
+			margin-right: 10px;
+			margin-left:  20px;
+			margin-top: 20px
+		}
+ul
+{
+	
+	list-style: none;
+	margin: 0px 50px ;
+	padding: 0;
+	float: right;
+}		
+
+ul li
+{
+	padding: 30px;
+	float: left;
+	position: relative
+}
+ul li a
+{
+	text-decoration: none;
+}
+
+ul li:hover
+{
+	background-color: chocolate;
+}
+
+ul li ul
+{
+	position: absolute;
+	top: 79px;
+	left: -50px;
+	visibility: hidden;
+}
+
+ul li ul li
+{
+	width: 100px;
+	background-color:#62B1C0;
+}
+
+ul li:hover ul
+{
+	visibility: visible;
+}
+h1
+{
+	text-align: left;
+	
+}
+
+img
+{
+	margin: 20px 0px 0px 75px;
+}
+
+hr
+{
+	margin: 10px 0px 0px 0px;
+		
+}
+
+h2
+{
+	text-align: center
+}
+h3
+{
+	text-align: center;
+	margin-top: 35px;
+	padding: 20px;
+}
+
+h4
+{
+	text-align: center;
+}
+
+h5
+{
+	text-align:left;
+	padding: 10px;
+}
+
+h6
+{
+	text-align: left;
+	padding: 10px;
+}
+
+h7
+{
+	margin-left: 25px;
+}
+
